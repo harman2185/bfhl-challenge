@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import HierarchyCard from "./components/HierarchyCard.jsx";
 
 // ⚠️  Replace with your hosted backend URL before deploying
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://bfhl-challenge-17a7.onrender.com";
 
 const SAMPLE = `A->B, A->C, B->D, C->E, E->F, X->Y, Y->Z, Z->X, P->Q, Q->R, G->H, G->H, G->I, hello, 1->2, A->`;
 
